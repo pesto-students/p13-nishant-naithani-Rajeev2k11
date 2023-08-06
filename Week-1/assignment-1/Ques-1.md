@@ -4,7 +4,7 @@ Protocol is a system of fixed rules and formal behaviour. Hence internet is also
 
 The Internet Protocol Suite, is a set of rules and protocols that enable devices to communicate on the internet. Each protocol operates at a different layer, building functionality on top of the layer below it.
 
-![Layers Image](./layer.png "a title")
+![Layers Image](./img/layer.png "a title")
 the Internet Protocol Stack is like a multi-layered cake (mmm, cake) that enables communication between devices on a network.
 
 ## The layers of the Internet Protocol Stack are:

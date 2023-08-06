@@ -1,6 +1,6 @@
 # What Is Web Hosting?
 
-![Layers Image](./Hosting.avif "a title")
+![Layers Image](./img/Hosting.avif "a title")
 
 
 
