@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a product</title>
+    <style>
+        .content{
+            padding: 10px;
+            display: flex;
+           
+        }
+        input{
+            text-align: left;
+            padding: 10px;
+            background-color:rgb(219, 241, 248);
+        }
+        label{
+            
+            width: 120px;
+        }
+        .required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+  }
+  p::before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+  textarea{
+    padding: 20px;
+  }
+    </style>
+</head>
+<body>
+    <h1>Rate a product</h1>
+    <p>indicates required field.</p>
+    <form>
+        <div class="content">
+            <label class="required">Product</label>
+            <input required type="text">
+        </div>
+        
+        <div class="content">
+            <label class="required">Purchase Date</label>
+            <input required type="date">
+        </div>
+        <div class="content">
+            <label class="required">Rating</label>
+            <input required type="number">
+        </div>
+        <div class="content">
+            <label>Comment</label>
+            <textarea></textarea>
+        </div>
+        <button>Submit Rating</button>
+    </form>
+</body>
+</html>
