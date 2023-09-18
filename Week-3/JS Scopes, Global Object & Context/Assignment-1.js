@@ -21,7 +21,7 @@ class ScientificCalculator{
     return num1*num1*num1;
     }
     power (num1,exp) {
-        return num1^exp;
+        return Math.pow(num1,exp);
        }
        
        
