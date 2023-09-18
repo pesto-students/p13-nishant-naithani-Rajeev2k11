@@ -12,7 +12,7 @@ function divideArray(nums){
     console.log("Odd Numbers:"+ oddNums.sort((a,b)=>a-b))
     if(evenNums.length>0){
         console.log("Even numbers:" +evenNums.length)
-        evenNums.map((num)=>{
+        evenNums.forEach((num)=>{
             console.log(num)
         })
     }else{
@@ -20,7 +20,7 @@ function divideArray(nums){
     }
     if(oddNums.length>0){
         console.log("Even numbers:" +oddNums.length)
-        oddNums.map((num)=>{
+        oddNums.forEach((num)=>{
             console.log(num)
         })
     }else{
